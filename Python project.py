@@ -142,3 +142,5 @@ model.compile(loss='binary_crossentropy',optimizer=tf.keras.optimizers.Adam(1e-4
 model.fit(X_train_pca,y_train,epochs=40,batch_size=128,validation_split=0.2)
 
 model.evaluate(X_test_pca,y_test)
+
+#On studying the pre existing research done in the field using the same dataset, it was found that the maximum accuracy achieved was 97%. With this model, the accuracy has been pushed to 97.84% which is significant considering the size of dataset we have used.
