@@ -114,7 +114,7 @@ X_train_pca = X_train_std.dot(projectionMatrix_1)
 X_train_pca
 X_test_pca = X_test_std.dot(projectionMatrix_1)
 
-"""Development of model (Long-Short Term Memory)"""
+"""Development of model (Multilayer Perceptron)"""
 
 #model
 def denseBlock(dims,inp) :
